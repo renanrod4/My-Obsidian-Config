@@ -1,0 +1,35 @@
+.inline-title, .HyperMD-header{
+  text-align: center;
+}
+
+.workspace-split,.workspace-tabs .workspace-leaf,.workspace-tab-header-container,
+body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile{
+  background:var(--background-primary);
+}
+.mod-active,.workspace-tab-header-container,
+body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile{
+  outline: none;
+
+  border: transparent !important;
+}
+.workspace-leaf-resize-handle{
+  border-color:transparent;
+}
+button>svg.svg-icon.lucide-book-open,
+div[aria-label="Expand all"],
+[aria-label="Collapse all"],
+[aria-label="New folder"],
+[aria-label="New note"],
+[aria-label="Auto-reveal current file"],
+.workspace-drawer-vault-switcher{
+  display:none !important;
+
+}
+.nav-buttons-container{
+  justify-content:flex-start;
+  padding:10px;
+}
+body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile{
+  justify-content: flex-end;
+  padding-right:50%;
+}
